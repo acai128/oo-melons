@@ -1,5 +1,9 @@
 """Classes for melon orders."""
 
+class AbstractMelonOrder(): 
+    def __init__(self, species, qty, shipped, order_type, tax): 
+        
+
 
 class DomesticMelonOrder():
     """A melon order within the USA."""
